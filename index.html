@@ -1,122 +1,16 @@
 <html>
     <head>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="./main.js"></script>
-        <script type="text/javascript" src="./jquery.js"></script>
+        <script type="text/javascript" src="assets/main.js"></script>
+        <script type="text/javascript" src="assets/jquery.js"></script>
         <script type="text/javascript"></script>        
-        <style>
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-            
-            li.charactercard {
-                border: 2px solid;
-                border-radius: 5px;
-                text-align: center;
-                margin-right: 5px;
-                float: left;
-                width: 80px;
-                height: 130px;
-                color: white;
-                background-color: rgb(56, 56, 56, 0.75);
-                overflow: hidden;
-            }  
-            
-            #opponents li.charactercard {
-                border: 2px solid;
-                border-radius: 5px;
-                text-align: center;
-                margin-right: 5px;
-                float: left;
-                width: 80px;
-                height: 130px;
-                color: white;
-                background-color: rgba(70, 0, 0, 0.75);
-                overflow: hidden;
-            }  
-            
-            #selectedcharacter li.charactercard {
-                border: 2px solid;
-                border-radius: 5px;
-                text-align: center;
-                margin-right: 5px;
-                float: left;
-                width: 80px;
-                height: 130px;
-                color: white;
-                background-color: rgba(0, 0, 70, 0.75);
-                overflow: hidden;
-            }      
-            
-            #defender li.charactercard {
-                border: 2px solid;
-                border-radius: 5px;
-                box-shadow: 0px 0px 15px yellow;
-                text-align: center;
-                margin-right: 5px;
-                float: left;
-                width: 80px;
-                height: 130px;
-                color: white;
-                background-color: rgba(70, 0, 0, 0.75);
-                overflow: hidden;
-            }         
+        <link rel="stylesheet" href="assets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
 
-            body {
-                text-align: center;
-                background-color: black; 
-            }
-
-            h1, h2 {
-                color: white;
-            }
-
-            #main {
-                position: relative;
-                padding: 10px;
-                text-align: left;
-                display: inline-block;
-                width: 900px;
-                height: 900px;
-                background-image: url('content/background.jpg'); 
-                background-repeat: no-repeat;
-                background-size: 100%;
-            }
-
-            .hide {
-                visibility: hidden;
-            }
-
-            .show {
-                visibility: visible;
-            }
-
-            #logoutput{
-                position: absolute;
-                right: 0px;
-                top: 200px;
-                width: 230px;
-                height: 500px;
-                background-color: rgb(0, 0, 0, 0.8);
-                overflow-y: auto; overflow-x:hidden;
-            }
-            
-            #logoutput li {
-                text-align: left;
-                float: none;
-                width: 200px;
-                color: lime;
-                background-color: rgba(0, 0, 0, 0);
-                margin-right: 5px;
-                margin-top: 2px;
-            }
-        </style>
     </head>
     <body style="text-align: center">            
         <div id="main">
-            <div style="text-align: right"><h1>Super SmashBros Brawl</h1></div>
+            <div style="text-align: right"><h1>Super SmashBros Brawl</h1></div></br>
             <div id="characterlistdiv">
                 <h2>Available Characters</h2>
                 <ul id="characterlist">
@@ -132,11 +26,13 @@
                 <ul id="opponentslist">
                 </ul>
             </div>
+        </br>
             <div id="fightsection">
-                <h1>Fight Section</h1>
+                <h2>Fight Section</h2>
                 <input type="button" id="fightbutton" value="Attack" />  
                 <input type="button" id="restartbutton" value="Restart" />          
                 <div id="defender">
+                    </br>
                     <h2>Defender</h2>
                     <ul id="defenderlist">
                     </ul>
