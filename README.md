@@ -46,7 +46,7 @@ To learn more about w3schools, click [here!](https://www.w3schools.com/)
 ####[DEMO](https://drive.google.com/file/d/1RuF2JDboaspr6HtVW6MTWIg7RiaTuzG9/view)
 
 
-![This](\images\smash.png)
+![This](images\smash.png)
 
 *If you are interested only in my code, [click me!](https://github.com/Marciagzq/Smash-Brawl)*
 
