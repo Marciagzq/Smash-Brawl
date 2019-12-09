@@ -1,6 +1,14 @@
 $(document).ready(function() {
     Restart();
 
+    $( '#Play-Music').on( 'click', function() {
+        PlayMusic();
+    });
+
+    $( '#Pause-Music').on('click', function() {
+        PauseMusic();
+    });
+
     // $( "#characterlist li" ).click(function() {
     $( '#characterlist' ).on( 'click', 'li', function () {
         var $input = $(this);
@@ -58,6 +66,7 @@ $(document).ready(function() {
     });
 });
 
+
 function Restart(){
     ClearAll();
     ClearLog();
@@ -67,7 +76,7 @@ function Restart(){
     $( "#selectedcharacter" ).hide()
     $( "#opponents" ).hide()
     $( "#fightsection" ).hide()
-}
+};
 
 function AddOutputLog(message){
     var listelement = '<li class="outputlog">';

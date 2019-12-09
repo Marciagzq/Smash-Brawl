@@ -1,3 +1,4 @@
+// Actions 
 const gamestates = {
     CHOOSEPLAYER: 'CHOOSEPLAYER',
     CHOOSEDEFENDER: 'CHOOSEDEFENDER',
@@ -6,12 +7,14 @@ const gamestates = {
     DEFEAT: 'DEFEAT',
 }
 
+// First set up
 var characters = [];
 var player = null;
 var defender = null
 var opponents = [];
 var gamestate = null
 
+// Defining Players
 function Initialize(){
     gamestate = gamestates.CHOOSEPLAYER
     characters = [
@@ -51,6 +54,23 @@ function Initialize(){
     
 }
 
+var audio = new Audio("./assets/finalDestination.mp3");
+
+// Button to play music
+function PlayMusic(){
+    audio.play();
+    // if(PauseMusic() === true) {
+    //     audio.pause
+    // }
+}
+
+// Button to pause music
+function PauseMusic(){
+    audio.pause();
+    console.log("hahaha looser")
+}
+
+// Function to select player and call function to choose defender
 function SelectPlayer(index){
     player = characters[index];
     opponents = characters.filter(function(character,i){return i!=index})
@@ -93,16 +113,16 @@ function AnalyzeGameState(){
 }
 
 // Gets Link for Theme Song
-       var audioElement = document.createElement("audio");
-       audioElement.setAttribute("src", "assets\finalDestination.mp3");  
+//        var audioElement = document.createElement("audio");
+//        audioElement.setAttribute("src", "assets\finalDestination.mp3");  
      
-// Theme Button
-   $(".theme-button").on("click", function() {
-    audioElement.play();
-  });
-  $(".pause-button").on("click", function() {
-    audioElement.pause();
-  });
+// // Theme Button
+//    $(".theme-button").on("click", function() {
+//     audioElement.play();
+//   });
+//   $(".pause-button").on("click", function() {
+//     audioElement.pause();
+//   });
 
 function ProcessGameState(){
     switch(gamestate){
