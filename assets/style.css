@@ -88,7 +88,7 @@
                 background-repeat: no-repeat;
                 background-position: right top;
                 background-attachment: scroll;
-                background-size: 100%;
+                background-size: 1236px;
                 font-family: 'Aclonica', sans-serif;
             }
 
@@ -138,6 +138,9 @@
                 color: pink;
                 margin-left: 5px;
                 margin-right: 30px;
+                margin-top: -20px;
+                margin-bottom: 10px;
+                
             }
             .fa:hover{
                 cursor: pointer;
