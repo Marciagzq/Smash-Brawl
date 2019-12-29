@@ -1,51 +1,62 @@
 <html>
-    <head>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="assets/main.js"></script>
-        <script type="text/javascript" src="assets/jquery.js"></script>
-        <script type="text/javascript"></script>        
-        <link rel="stylesheet" href="assets/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body style="text-align: center">            
-        <div id="main">
-            <div style="text-align: right"><h1>Super SmashBros Brawl</h1></div></br>
-            <i type="button" id="Play-Music" style="font-size:28px" class="fa fa-play-circle-o"></i><i id="Pause-Music" style="font-size:28px" class="fa fa-pause-circle-o"></i>
-            <!-- <div type="button" id="playMusicButton" value="Go"><div></div>    -->
-            <div id="characterlistdiv">
-                <h2>Available Characters</h2>
-                <ul id="characterlist">
-                </ul>
-            </div>
-            <div id="selectedcharacter">
-                <h2>Your Character</h2>
-                <ul id="selectedcharacterlist">
-                </ul>
-            </div>
-            <div id="opponents">
-                <h2>Enemies Available To Attack</h2>
-                <ul id="opponentslist">
-                </ul>
-            </div>
-        </br>
-            <div id="fightsection">
-                <h2>Fight Section</h2>
-                <input type="button" id="fightbutton" value="Attack" />  
-                <input type="button" id="restartbutton" value="Restart" />          
-                <div id="defender">
-                    </br>
-                    <h2>Defender</h2>
-                    <ul id="defenderlist">
-                    </ul>
-                </div>   
-            </div>         
-            <ul id="logoutput">
-                <li style="text-align: center; background-color: black; margin-top: 0px; height: 25px; width: 230px">
-                    <b style="font-size:18px">BATTLE LOGS</b>
-                </li>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script type="text/javascript" src="assets/jquery.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<body style="text-align: center">
+    <div id="main">
+        <div style="text-align: right">
+            <h1>Super SmashBros Brawl</h1>
+        </div></br>
+        <i type="button" id="Play-Music" style="font-size:28px" class="fa fa-play-circle-o"></i><i id="Pause-Music"
+            style="font-size:28px" class="fa fa-pause-circle-o"></i>
+        <!-- <div type="button" id="playMusicButton" value="Go"><div></div>    -->
+        <div id="characterlistdiv">
+            <h2>Available Characters</h2>
+            <ul id="characterlist">
             </ul>
         </div>
-    </body>
+        <div id="selectedcharacter">
+            <h2>Your Character</h2>
+            <ul id="selectedcharacterlist">
+            </ul>
+        </div>
+        <div id="opponents">
+            <h2>Enemies Available To Attack</h2>
+            <ul id="opponentslist">
+            </ul>
+        </div>
+        </br>
+        <div id="fightsection">
+            <h2>Fight Section</h2>
+            <input type="button" id="fightbutton" value="Attack" />
+            <input type="button" id="restartbutton" value="Restart" />
+            <div id="defender">
+                </br>
+                <h2>Defender</h2>
+                <ul id="defenderlist">
+                </ul>
+            </div>
+        </div>
+        <ul id="logoutput">
+            <li style="background-color: black; margin-top: 0px; height: 25px; width: 230px">
+                <b style="font-size:8px">BATTLE LOGS</b>
+            </li>
+        </ul>
+    </div>
+</body>
+
 </html>
