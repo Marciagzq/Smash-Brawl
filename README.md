@@ -24,7 +24,7 @@
 *The project is useful to understand the the basics of the functions and the events on JavaScript and JQuery. Also, if you have time to go thru my code, you might be surprise of how short your code can get.*
 ###
 
-#####What Language?
+##### What Language?
 
 *  Libraries and language used for accomplished this assignment 
 
