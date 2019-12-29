@@ -1,5 +1,5 @@
-#University of Central Florida
-###Coding Bootcamp 
+# University of Central Florida
+### Coding Bootcamp 
 #### Full Stack Developer 
 ![alt text](https://portfolium1.cloudimg.io/s/crop/128x128/https://cdn.portfolium.com/ugcs3%2Fedu%2F9tDF4wvqRdewUvBbZ97x_PegasusBrightGold150x150.png "Logo Title Text 1")
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
